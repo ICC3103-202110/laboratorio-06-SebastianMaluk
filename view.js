@@ -3,7 +3,7 @@ const chalk = require("chalk")
 const inquirer = require("inquirer")
 
 function getTitle(){
-    return chalk.green(
+    return chalk.yellow(
         figlet.textSync(
             "Unit Converter App",
             {
