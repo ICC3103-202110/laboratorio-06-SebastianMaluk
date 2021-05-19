@@ -10,7 +10,7 @@ function update(input, model){
         } else if (to === "Fahrenheit") {
             result = (tempValue * 9/5) + 32
         } else if (to === "Kelvin") {
-            result = tempValue + 273
+            result = tempValue + 273.15
         }
     } else if (from === "Fahrenheit") {
         if (to === "Fahrenheit") {
